@@ -28,11 +28,11 @@ if(isset($_POST['register_button'])){
 
     $em = strip_tags($_POST['reg_email']);//remove html tags
     $em = str_replace(' ','', $em );//remove spaces
-    $em = ucfirst(strtolower($em));//upper case first letter
+    
 
     $em2 = strip_tags($_POST['reg_email2']);//remove html tags
     $em2 = str_replace(' ','', $em2 );//remove spaces
-    $em2 = ucfirst(strtolower($em2));//upper case first letter
+ 
 
 
     $password = strip_tags($_POST['reg_password']);//remove html tags
