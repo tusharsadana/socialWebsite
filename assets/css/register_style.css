@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Quish;
+    src:url('../Fonts/Quish.otf');
+}
+@font-face{
+    font-family: C;
+    src:url('../Fonts/C.otf');
+}
+@font-face{
+    font-family: C2;
+    src:url('../Fonts/C2.otf');
+}
+form {
+    text-align: center;
+}
+body{
+   margin: 0;
+   padding: 0; 
+}
+.wrapper{
+    background-image: url("../images/backrounds/Homepage.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 950px;
+}
+.login_box{
+    font-family: 'Quish', sans-serif; 
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top:7%;
+    width:35%;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 15px;
+    padding: 10px;
+    opacity: 0.7;
+}
+.login_header{
+    font-family: 'C2', sans-serif;
+    width: 100%;
+    height: 85px;
+    background-color:#097def;
+    color:#16ff09db;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.login_header h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:#16ff09db;
+}
