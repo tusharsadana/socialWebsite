@@ -44,7 +44,7 @@ if(isset($_POST['register_button'])){
 
     if($em == $em2) {
         if(filter_var($em, FILTER_VALIDATE_EMAIL)){
-            $em = filter_var($em, FILTER_VALIDTE_EMAIL);
+            $em = filter_var($em, FILTER_VALIDATE_EMAIL);
         }
 
         else {
