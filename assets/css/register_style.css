@@ -79,6 +79,7 @@ body{
     text-shadow: #000 1.5px 1.0px 0.5px;
     font-family: 'Quesat Bold Demo', sans-serif;
     font-size: 100%;
+    
 }
 input[type="text"],  input[type="email"],  input[type="password"]{
     border: solid 1px #e5e5e5;
