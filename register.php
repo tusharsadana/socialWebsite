@@ -1,3 +1,13 @@
+<?php
+require 'config/config.php';
+require 'includes/form_handlers/login_handler.php';
+
+
+
+?>
+
+
+
 <?php 
 session_start();
 $con = mysqli_connect("localhost", "root", "", "social");//connection variable
@@ -108,6 +118,16 @@ if(isset($_POST['register_button'])){
     <link rel="stylesheet" type="text/css" href="assets/css/register_style.css">
 </head>
 <body>
+
+    <form action="register.php" method="POST"> 
+        <input type="email" name="log_email" placeholder="Email Address">
+        <br>
+        <input type="password" name="log_password" placeholder="Password">
+        <br>
+        <input type="submit" name="login_button" value="login">
+    </form>
+
+  
     <div class="wrapper">
        <div class="login_box">
             <div class="login_header">
