@@ -125,24 +125,29 @@ if(isset($_POST['register_button'])){
 </head>
 <body>
 
-    <form action="register.php" method="POST"> 
-        <input type="email" name="log_email" placeholder="Email Address">
-        <br>
-        <input type="password" name="log_password" placeholder="Password">
-        <br>
-        <input type="submit" name="login_button" value="login">
-    </form>
+    
 
   
     <div class="wrapper">
        <div class="login_box">
             <div class="login_header">
-                <h1>Website Name</h1>
-                Login or sign up
-                
+               <h1>Website Name</h1>
+                   Login or sign up
+            
             
             </div>
-            <form action = "register.php" method= "POST">
+                
+                
+                <form action="register.php" method="POST"> 
+                <input type="email" name="log_email" placeholder="Email Address">
+                <br>
+                <input type="password" name="log_password" placeholder="Password">
+                <br>
+                <input type="submit" name="login_button" value="login">
+                </form>
+                
+                
+                <form action = "register.php" method= "POST">
         
                 <input type="text" name="reg_fname" placeholder="First name" value="<?php
                     if(isset($_SESSION['reg_fname']))
