@@ -127,6 +127,18 @@ if(isset($_POST['register_button'])){
 </head>
 <body>
 
+<?php
+ if(isset($_POST['register_button'])) {
+        echo ' 
+            <script>
+                $(document).ready(function(){
+                    $("#first").hide();
+                    $("#second").show();
+                });
+            </script>
+        ';
+    }
+?>
     
 
   
